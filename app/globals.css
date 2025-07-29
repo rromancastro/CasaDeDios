@@ -20,7 +20,7 @@ nav {
 }
 
 #firstSectionLogo {
-  width: 35%;
+  width: 30%;
   height: auto;
   margin-bottom: 10px;
   object-fit: contain;
@@ -57,6 +57,44 @@ nav {
   width: 90%;
   height: auto;
   object-fit: cover;
+}
+
+#secondSection {
+  min-height: 100dvh;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#secondSectionH2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.secondSectionDataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+.secondSectionDataContainer h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.secondSectionDataContainer p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#secondSectionH3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
 
 @font-face {
