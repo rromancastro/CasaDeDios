@@ -1,0 +1,29 @@
+#firstSection {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#firstSectionImage {
+    width: 35%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#firstSectionTitle {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#firstSectionP {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#firstSectionH2 {
+    font-family: 'Kapakana';
+    font-weight: 400;
+    font-size: 80px;
+}
