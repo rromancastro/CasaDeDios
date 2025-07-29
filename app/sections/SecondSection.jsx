@@ -19,7 +19,7 @@ export const SecondSection = () => {
             </div>
             <div className="secondSectionDataContainer">
                 <h3>Horario de reuniones</h3>
-                <p>20:00</p>
+                <p>20:30</p>
             </div>
             <h3 id="secondSectionH3">CASAS<br />DE<br />ORACIÓN</h3>
             <div className="secondSectionDataContainer">
