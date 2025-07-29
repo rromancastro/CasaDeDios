@@ -19,10 +19,11 @@ nav {
   align-items: center;
 }
 
-#firstSectionImage {
+#firstSectionLogo {
   width: 35%;
   height: auto;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  object-fit: contain;
 }
 
 #firstSectionTitle {
@@ -33,12 +34,29 @@ nav {
 #firstSectionP {
   font-size: 14px;
   font-weight: 400;
+  margin-top: 50px;
 }
 
 #firstSectionH2 {
   font-family: "Kapakana";
   font-weight: 400;
-  font-size: 80px;
+  font-size: 90px;
+}
+
+#firstSectionA {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #1A1B1B;
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+#firstSectionImage {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
 }
 
 @font-face {
