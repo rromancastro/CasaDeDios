@@ -8,7 +8,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  transition: 1s;
+  transition: 0.5s;
   background-color: #fafafa;
 }
 
@@ -159,6 +159,9 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 
 body {
   background-color: #F9F7F2;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
