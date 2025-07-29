@@ -6,7 +6,8 @@ export const SecondSection = () => {
 
     //logica navbar
     const { ref, inView } = useInView({
-        threshold: .50, 
+        threshold: .50,
+        triggerOnce: true,
     });
 
     return (
