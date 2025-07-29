@@ -1,6 +1,9 @@
+"use client"
 import Image from "next/image";
 
 export const FirstSection = () => {
+
+
     return (
         <section id="firstSection">
             <Image id="firstSectionLogo" src="/logo.png" alt="First Section Logo" width={500} height={500} />

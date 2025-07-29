@@ -1,6 +1,17 @@
+"use client"
+import { useInView } from "react-intersection-observer";
+import { NavBar } from "../components";
+
 export const SecondSection = () => {
+
+    //logica navbar
+    const { ref, inView } = useInView({
+        threshold: .75, 
+    });
+
     return (
-        <section id="secondSection">
+        <section ref={ref} id="secondSection">
+            <NavBar opacity={inView ? 1 : 0} />
             <h2 id="secondSectionH2">NUESTRAS<br />REUNIONES<br />LOS<br />SABADOS</h2>
             <div className="secondSectionDataContainer">
                 <h3>Direccion</h3>
