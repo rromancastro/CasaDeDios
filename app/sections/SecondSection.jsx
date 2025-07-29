@@ -34,6 +34,30 @@ export const SecondSection = () => {
                 <h3>Horario de reuniones</h3>
                 <p>20:00</p>
             </div>
+            <div className="secondSectionDataContainer" style={{marginTop: 30}}>
+                <h3>Lideres</h3>
+                <p>Leandro y Andrea</p>
+            </div>
+            <div className="secondSectionDataContainer">
+                <h3>Direccion</h3>
+                <p>Riobamba 1160 - San Luis</p>
+            </div>
+            <div className="secondSectionDataContainer">
+                <h3>Horario de reuniones</h3>
+                <p>20:00</p>
+            </div>
+            <div className="secondSectionDataContainer" style={{marginTop: 30}}>
+                <h3>Lideres</h3>
+                <p>Leandro y Andrea</p>
+            </div>
+            <div className="secondSectionDataContainer">
+                <h3>Direccion</h3>
+                <p>Riobamba 1160 - San Luis</p>
+            </div>
+            <div className="secondSectionDataContainer">
+                <h3>Horario de reuniones</h3>
+                <p>20:00</p>
+            </div>
         </section>
     )
 }
